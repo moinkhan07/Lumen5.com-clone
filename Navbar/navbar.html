@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+    <div id="navbar">
+        <a href=""><img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"></a>
+        <button class="con" id="create">Create</button>
+        <a class="con2" href="">Pricing</a>
+        <a class="con2" href="">Enterprise</a>
+        <a class="con2" href="">Case studies</a>
+        <button id="learn" class="con">Learn ↓</button>
+        <button class="sin"><a href="">Login</a></button>
+        <button class="sin"><a href="">Signup</a></button> 
+    </div>
+     <div id="learn_div">
+       <table>
+        <tr> 
+            <th> <a href="">Resources</a></th>
+        </tr>
+        <tr> 
+            <th><a href="">Blog</a></th>
+        </tr>
+       </table>
+     </div>
+
+     <div id="create_div">
+        <table>
+         <tr>
+             <ol><a href=""></a></ol>
+         </tr>
+        </table>
+      </div>
+
+      <table id="create_list" > 
+        <tr>
+            <th><a href="">Photo Video Maker</a></th>
+            <th><a href="">Linked Video Maker</a></th>
+        </tr>
+    
+        <tr>
+            <th><a href="">Facebook Video Maker</a></th>
+            <th><a href="">Business Video Maker</a></th>
+        </tr>
+
+        <tr>
+            <th><a href="">Youtube intro Maker</a></th>
+            <th><a href="">Ecommerce Video Maker</a></th>
+        </tr>
+
+        <tr>
+            <th><a href="">Instagram Video Maker</a></th>
+            <th><a href="">Explainer Video Maker</a></th>
+        </tr>
+
+        <tr>
+            <th><a href="">Instagram Story Maker</a></th>
+            <th><a href="">Slide Show Maker</a></th>
+        </tr>
+
+        <tr>
+            <th><a href="">Promo Video Maker</a></th>
+            <th><a href="">Education Video Maker</a></th>
+        </tr>
+
+        <tr>
+            <th><a href="">Video Ad Maker</a></th>
+            <th><a href="">Video Editor</a></th>
+        </tr>
+
+        <tr>
+            <th><a href="">Making Video Maker</a></th>
+            <th><a href="">Voiceover</a></th>
+        </tr>
+    
+    </table>
+
+</body>
+</html>
+<script>
+  const button=document.getElementById("learn");
+    const list= document.getElementById("learn_div")
+
+    const button_cr=document.getElementById("create");
+    const list_cr= document.getElementById("create_list")
+
+    list.style.display="none"
+    list_cr.style.display="none"
+
+    button.addEventListener("click",(event)=> {
+        if (list.style.display=="none"){
+        list.style.display="block";
+    }
+    else{
+        list.style.display="none"
+    }
+    })
+
+    button_cr.addEventListener("click",(event_cr)=> {
+        if (list_cr.style.display=="none"){
+        list_cr.style.display="block";
+    }
+    else{
+        list_cr.style.display="none"
+    }
+    })
+
+   
+</script>

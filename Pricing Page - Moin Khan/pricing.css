@@ -304,10 +304,39 @@ p{
 .dark_line{
   width: 80%;
   margin: auto;
-  margin-bottom: 1000px;
+  margin-bottom: 80px;
   box-shadow: #43475545 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
   margin-top: -10px;
 }
 
 /*------------------------------------- Small Planing div done------------------------------------------*/
 
+/*-------------------------------------- Table Part start---------------------------------------------- */
+
+.table_div{
+  width: 80%;
+  margin: auto;
+  line-height: 60px;
+}
+td{
+  padding-left: 20px;
+}
+tr>td:first-child{
+  padding-right: 80px;
+  display: flex;
+  justify-content: left;
+}
+.padding{
+  padding: 5px 20px;
+}
+table{
+  width: 100%;
+}
+.shaded{
+  background-color: #fafafb;
+}
+table>tbody>tr{
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+}

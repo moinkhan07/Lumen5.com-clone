@@ -10,22 +10,27 @@
 </head>
 <body>
     <div id="navbar">
-        <a href=""><img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"></a>
+       <div id="nav1">
+        <a href=""><img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"></a> 
+       </div>
+       <div id="nav2">
+        
         <button class="con" id="create">Create</button>
         <a class="con2" href="">Pricing</a>
         <a class="con2" href="">Enterprise</a>
         <a class="con2" href="">Case studies</a>
         <button id="learn" class="con">Learn ↓</button>
-        <button class="sin"><a href="">Login</a></button>
-        <button class="sin"><a href="">Signup</a></button> 
+       <a class="sin" href="">Login</a>
+        <a class="sin" href="">Signup</a>
+       </div>
     </div>
      <div id="learn_div">
        <table>
         <tr> 
-            <th> <a href="">Resources</a></th>
+            <td> <a href="">Resources</a></td>
         </tr>
         <tr> 
-            <th><a href="">Blog</a></th>
+            <td><a href="">Blog</a></td>
         </tr>
        </table>
      </div>
@@ -40,76 +45,106 @@
 
       <table id="create_list" > 
         <tr>
-            <th><a href="">Photo Video Maker</a></th>
-            <th><a href="">Linked Video Maker</a></th>
+            <td><a href="">Photo Video Maker</a></td>
+            <td><a href="">Linked Video Maker</a></td>
         </tr>
     
         <tr>
-            <th><a href="">Facebook Video Maker</a></th>
-            <th><a href="">Business Video Maker</a></th>
+            <td><a href="">Facebook Video Maker</a></td>
+            <td><a href="">Business Video Maker</a></td>
         </tr>
 
         <tr>
-            <th><a href="">Youtube intro Maker</a></th>
-            <th><a href="">Ecommerce Video Maker</a></th>
+            <td><a href="">Youtube intro Maker</a></td>
+            <td><a href="">Ecommerce Video Maker</a></td>
         </tr>
 
         <tr>
-            <th><a href="">Instagram Video Maker</a></th>
-            <th><a href="">Explainer Video Maker</a></th>
+            <td><a href="">Instagram Video Maker</a></td>
+            <td><a href="">Explainer Video Maker</a></td>
         </tr>
 
         <tr>
-            <th><a href="">Instagram Story Maker</a></th>
-            <th><a href="">Slide Show Maker</a></th>
+            <td><a href="">Instagram Story Maker</a></td>
+            <td><a href="">Slide Show Maker</a></td>
         </tr>
 
         <tr>
-            <th><a href="">Promo Video Maker</a></th>
-            <th><a href="">Education Video Maker</a></th>
+            <td><a href="">Promo Video Maker</a></td>
+            <td><a href="">Education Video Maker</a></td>
         </tr>
 
         <tr>
-            <th><a href="">Video Ad Maker</a></th>
-            <th><a href="">Video Editor</a></th>
+            <td><a href="">Video Ad Maker</a></td>
+            <td><a href="">Video Editor</a></td>
         </tr>
 
         <tr>
-            <th><a href="">Making Video Maker</a></th>
-            <th><a href="">Voiceover</a></th>
+            <td><a href="">Making Video Maker</a></td>
+            <td><a href="">Voiceover</a></td>
         </tr>
     
     </table>
 
+
+
+
+    <div id="foot">
+        <div class="foot2">
+            <div class="footlog">
+                <img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-white.png">
+         <p>Lumen5 combines powerful A.I. with a simple drag-and-drop interface to help you create professional video content in minutes.</p>
+            </div>
+        </div>
+        <div class="foot2">
+            <table>
+                <tr>
+                    <th>EXPLORE</th>
+                    <th>VIDEO TOOL</th>
+                    <th>VIDEO CREATORS</th>
+                </tr>
+    
+                <tr>
+                    <td>About</td>
+                    <td>Add Text to Video</td>
+                    <td>Video Editor</td>
+                </tr>
+    
+                <tr>
+                    <td>Features</td>
+                    <td>Cut Video</td>
+                    <td>Photo Video Maker</td>
+                </tr>
+    
+                <tr>
+                    <td>Careers</td>
+                    <td>Merge Video</td>
+                    <td>Facebook Video Maker</td>
+                </tr>
+    
+                <tr>
+                    <td>Linkedin</td>
+                    <td>Compress Video</td>
+                    <td>Youtube Intro Maker</td>
+                </tr>
+    
+                <tr>
+                    <td>Support</td>
+                    <td>Resize Video</td>
+                    <td>Instagram Video Maker</td>
+                </tr>
+    
+                <tr>
+                    <td>Product Updating</td>
+                    <td>See all</td>
+                    <td>See all</td>
+                </tr>
+
+    
+              </table>
+        </div>
+    </div>
+
 </body>
 </html>
-<script>
-  const button=document.getElementById("learn");
-    const list= document.getElementById("learn_div")
-
-    const button_cr=document.getElementById("create");
-    const list_cr= document.getElementById("create_list")
-
-    list.style.display="none"
-    list_cr.style.display="none"
-
-    button.addEventListener("click",(event)=> {
-        if (list.style.display=="none"){
-        list.style.display="block";
-    }
-    else{
-        list.style.display="none"
-    }
-    })
-
-    button_cr.addEventListener("click",(event_cr)=> {
-        if (list_cr.style.display=="none"){
-        list_cr.style.display="block";
-    }
-    else{
-        list_cr.style.display="none"
-    }
-    })
-
-   
-</script>
+<script src="navbar.js"></script>

@@ -18,3 +18,12 @@ month.onclick = () =>{
     monthAmount.forEach(mo =>{ mo.style.display = 'block' });
     yearAmount.forEach(yr =>{ yr.style.display = 'none' });
 };
+
+
+
+let plan_compare = document.getElementById("reach");
+let scroll = document.getElementById("compare_plan");
+
+scroll.onclick = ()=>{
+    window.scrollTo(0,2300);
+}

@@ -30,13 +30,10 @@
      font-size: 17px;
      margin-right: 15px;}
 
-.sin:hover{background-color:#5846f6;
-            color: #fafafb;}
-            
-
 
 .con{color: #48505E;
       margin: auto;
+      margin-top: 22px;
       font-size: 17px;
       border: none;
       cursor: pointer;
@@ -46,26 +43,31 @@
     color: #48505E;
     font-size: 17px;}
 
+.sin:hover{background-color:#5846f6;
+        color: #fafafb;}
 
 #learn_div{
     border: solid black 1px;
+    margin-top: -10px;
     border-radius: 5px;
     width: 150px;
     margin-left:78%;
     background-color:white;
     font-family: "Poppins",sans-serif;
-    font-size: 12px;}
+    font-size: 12px;
+    position: absolute;}
 
 a{text-decoration: none;}
 
 #create_list{ border: solid black 1px;
-    margin-top: -15px;
+    margin-top: -25px;
     border-radius: 10px;
     width: 500px;
     margin-left:50%;
     font-family: "Poppins",sans-serif;
     background-color:white;
     line-height: 40px;
+    position: absolute;
     }
 #create_list td{background-color: white;
    padding: 10px 15px 10px 15px;
@@ -85,16 +87,21 @@ a{text-decoration: none;}
 
 #create_list a:hover{background-color: #c3c3ca59;}
 #learn_div a:hover{background-color: #c3c3ca59;}
+#navbar>.con a:hover{color:black}
+#navbar .con2:hover{color:black}
+#navbar button:hover{color:black}
+
+.bg{font-size: 35px;}
 
 /* ----------------------footer_start----------------- */
 #foot{width: 100%;
-    height: 500px;
+    height: 450px;
     border: solid black 1px;
     display: flex;
-    background-color:black}
+    background-color:rgb(28, 27, 27)}
 .foot2{width: 50%;
     height: 500px;
-    border: solid black 1px;}
+   }
 .foot2 td{font-size: 14.5px;
         color: aliceblue;
         font-family: "Poppins",sans-serif;
@@ -103,6 +110,8 @@ a{text-decoration: none;}
         padding: 5px 50px;
         cursor: pointer;
         }
+.foot2 td:hover{font-size: 16px;
+                color: #9b91f9;}
 .foot2 th{font-size: 14.5px;
         color: white;
         font-family: "Poppins",sans-serif;
@@ -124,6 +133,25 @@ a{text-decoration: none;}
       letter-spacing: 1px;
       color: white;
       font-family: "Poppins",sans-serif;}
+#coppiright{width: 100%;
+            height: 80px;
+            border: solid black 1px;
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            font-family: "Poppins",sans-serif;
+            color: white;
+            font-size: 15px;}
+#coppiright>:nth-child(1){ margin-top:30px;
+                           padding: 0px 0px 0px 40px;}
+#coppiright>:nth-child(2){padding:0px 40px 0px 0px ;
+                          margin-top:30px;}
+
+                          
+        
+
+
+      
 
 
  

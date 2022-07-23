@@ -4,145 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Homepage.css"/>
-    <title>Document</title>
-</head>
-<style>
-#main1{
-  font-family: "Poppins",sans-serif;
-    font-style: normal;
-display: flex;
-margin-top: 80px;
-}
-#para1{
-  width: 90%;
-  font-size: calc(1.35625rem + 1.275vw);
-    font-weight: 700;
-    line-height: 1.35;
-    letter-spacing: normal;
-    color: #24282f;
-}
-#para2{
-  width:50%;
-  font-size: calc(1.25625rem + 0.075vw);
-    font-weight: 400;
-    line-height: 1.33;
-    letter-spacing: normal;
-    margin-top: 30px;
-    color: #24282f;
-}
-#leftside{
-  margin-left: 200px;
-}
-#leftside>button{
-  letter-spacing: 0;
-    font-family: "Poppins",sans-serif;
-    cursor: pointer;
-    font-size: 20px;
-  border-radius: 25px;
-  height:50px;
-    /* background-color: #5846f6; */
-   color: aliceblue;
-}
-#rig{
-  max-width: 590px;
-  margin-right:120px;
-}
-#centrep{
-  text-align: center;
-  font-size: calc(1.25625rem + 0.075vw);
-    font-weight: 400;
-    line-height: 1.33;
-    letter-spacing: normal;
-    margin-top: 100px;
-}
-#logos{
-  text-align: center;
-}
-#templates{
-  text-align: center;
-  font-family: "Poppins",sans-serif;
-    font-style: normal;
-    color: #24282f;
-}
-#centrep1{
-  color: #24282f;
-  text-align: center;
-  font-size: calc(1.25625rem + 0.075vw);
-  font-family: "Poppins",sans-serif;
-    font-weight: 400;
-    line-height: 1.33;
-    letter-spacing: normal;
-    margin-top:30px;
-}
-#gridvedios{
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width:80%;
-    gap:20px;
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <title>Lumen5 - Video Maker | Create Videos Online in Minutes</title>
     
-  }
-  #main2{
-  font-family: "Poppins",sans-serif;
-    font-style: normal;
-   display: flex;
-   margin-top: 200px;
-}
-#leftside1{
-  margin-left:100px;
-  margin-top: 100px;
-} 
-#rightside1{
-  margin-right:30px; 
-  margin-left: 100px;
-}
-#rig1{
-  width:500px;
-}
-#para4{
-  width: 70%;
-  font-size: calc(1.35625rem + 1.275vw);
-    font-weight: 700;
-    line-height: 1.35;
-    letter-spacing: normal;
-    color: #24282f;
-}
-#para3{
-  width:70%;
-  font-size: calc(1.25625rem + 0.075vw);
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #24282f;
-}
-#very_small{
-    margin-top:80px;
-    width:50%;
-    font-family: "Poppins",sans-serif;
-    font-style: normal;
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #24282f;
-}
-#mentor{
-  display:flex;
-}
-#small_img{
-  height:50px;
-  border-radius:60%;
-  margin-top: 30px;
-}
-#mennam{
-  margin-left:20px;
-}
-#rig2{
-  height:350px;
-}
-#leftside2{
-  width:30%;
-}
-</style>
+    <link
+      rel="shortcut icon"
+      href="https://storage.googleapis.com/lumen5-site-images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+</head>
 <body>
   <div id="main1">
     <div id="leftside">
@@ -156,7 +27,9 @@ margin-top: 80px;
    and <strong>brand awareness</strong>
    in a snap.
       </p>
-      <button><a href="signup.html" >Sign up Free</a></button>
+
+      <button id="signbtn"><a href="signup.html" >Sign up Free</a></button>
+
   </div>
   <div id="right1">
     <img id="rig" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png"/>
@@ -165,6 +38,8 @@ margin-top: 80px;
     <!-- -------------------------------------------------------------------------------------------------------------------- -->
     
     <p id="centrep">Over 6 million videos created by thousands of businesses</p>
+
+
     <div id="logos">
      <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-salesforce-color.png"/>
      <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-pwc-color.png"/>
@@ -176,8 +51,11 @@ margin-top: 80px;
      <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-color.png"/>
     </div>
    
+
+
     <h1 id="templates">Captivating video templates</h1>
     <h3 id="centrep1">Drag and drop. No experience required.</h3>
+
 
  <div id="gridvedios">
   <video width="350"  controls>
@@ -227,8 +105,11 @@ margin-top: 80px;
 <div id="rightside1">
   <h1 id="para4">Transform blog posts
       into videos with A.I.</h1>
-    <p id="para3">Starting from a blank page is hard — and with Lumen5, you don’t have to. Our AI-powered technology helps you storyboard your ideas, fit your content to a layout, and find music and visuals that enhance your message.</p>
-    <button><a href="signup.html"></a>Get Started For Free -></button>
+    
+      <p id="para3">Starting from a blank page is hard — and with Lumen5, you don’t have to. Our AI-powered technology helps you storyboard your ideas, fit your content to a layout, and find music and visuals that enhance your message.</p>
+    
+      <button id="bot"><a href="signup.html">Get Started For Free -></a></button>
+
     <hr width="100%">
     <p id="very_small">“Lumen5 has enabled us to create more videos and drive more traffic, while having more time to invest in other projects.”</p>
         
@@ -241,102 +122,117 @@ margin-top: 80px;
       </div>
 </div>
 </div>
-
+<!-- --------------------------------------------------------------------------------------------------------- -->
  <div id="main1">
       <div id="leftside2">
-        <h1>
+        <h1 id="para5" >
           Content library with millions of stock photos & videos
         </h1>
-        <p>The Lumen5 media library gives you easy access to millions of photos, video clips, and audio files, so you always have the elements you need to create the perfect video.</p>
-        <p><a href="signup.html"></a>Views Plans-></p>
+        <p id="para6">The Lumen5 media library gives you easy access to millions of photos, video clips, and audio files, so you always have the elements you need to create the perfect video.</p>
+        <button><a href="signup.html"></a>Views Plans-></button>
         <p id="very_small">“We promoted our downloadable study on top PPC skills for 2019 on social media using a short video created in Lumen5 in just 30 minutes, and decreased cost per download by 5x!”</p>
+       
+       
+       
         <div id="mentor">
           <img id="small_img" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-julia-o.jpg"/>
-        
-          <p><strong>Julia Olennikova,</strong>Product Marketing<br> Manager<br>
-          <img height="50px" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-semrush.png"/>
+          <p id="shift"><strong>Julia Olennikova,</strong>Product Marketing<br> Manager<br>
+          <img height="13px" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-semrush.png"/>
         </p>
-        </div>
+      </div>
+
+
+
     </div id="right2">
     <img id="rig2" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-media.png"/>
  </div>
 
-
-
-
-
- 
- 
-
 <!-- ------------------------------------------------------------------------------------------------------------------- -->
+<div id="main2">
 
-
- 
-
- <div id="rightside">
-  <h1>Making it easy to
-    stay on brand</h1>
-    <p>It has never been easier to stay on brand. With Lumen5 templates, you can customize each video with your unique logo, watermark, fonts, colors, and more.</p>
-    <p><a href="signup.html"></a>Get Started For Free -></p>
-    <p id="very_small">“Whenever I got in touch with Lumen5 I felt like my suggestions mattered and I was being listened to. It’s like I’m co-creating in a tiny way. It’s a great feeling.”</p>
-    <div>
-      <img id="small_img" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-promod-s.jpg"/>
-      <p>Promod Sharma, Actuary & Insurance Consultant</p>
-      <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-taxevity-color.png"/>
-    </div>
- </div> 
- <img id="lef" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-customize.png"/>
+  <img id="lef3" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-customize.png"/>
 
 
 
+  <div id="rightside">
+    <h1 id="para7">Making it easy to
+      stay on brand</h1>
+      <p id="para8">It has never been easier to stay on brand. With Lumen5 templates, you can customize each video with your unique logo, watermark, fonts, colors, and more.</p>
+      <p><a href="signup.html"></a>Get Started For Free -></p>
+      <p id="very_small">“Whenever I got in touch with Lumen5 I felt like my suggestions mattered and I was being listened to. It’s like I’m co-creating in a tiny way. It’s a great feeling.”</p>
+      
+      
+      <div id="mentor">
+        <img id="small_img" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-promod-s.jpg"/>
+        <p id="shift" ><strong>Promod Sharma,</strong> Actuary & Insurance Consultant <br>
+        <img height="15px" src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-taxevity-color.png"/>
+      </p>
+      </div>
 
 
+   </div> 
+  
+  
+   
+
+</div>
  <!-- --------------------------------------------------------------- ------------------------------------------------------>
 
  <h1 id="templates">Explore videos made with Lumen5</h1>
 
  <div id="centrebtn">
-<button><a href="signup.html">Content Marketing</a></button>
-<button><a href="signup.html">Communications</a></button>
-<button><a href="signup.html">Promotional</a></button>
-<button><a href="signup.html">People & Culture</a></button>
-<button><a href="signup.html">Localization</a></button>
+<button class="centrebutton">Content Marketing</button>
+<button class="centrebutton">Communications</button>
+<button class="centrebutton">Promotional</button>
+<button class="centrebutton">People & Culture</button>
+<button class="centrebutton">Localization</button>
  </div>
 
-  <div id="gridvedios">
-    <video width="300" controls>
+  <div id="gridvedios1">
+    <video width="350" controls>
     <source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Hydrogen%20Economy.mp4" type="video/mp4">
   </video>
-  <video width="300" controls>
+  <video width="350" controls>
     <source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/siemens-content.mp4" type="video/mp4">
   </video>
-  <video width="300" controls>
+  <video width="350" controls>
     <source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Responsible%20Investment.mp4" type="video/mp4">
   </video>
-  <video width="300" controls>
+  <video width="350" controls>
     <source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Workplace%20Evolution.mp4" type="video/mp4">
   </video>
-  <video width="300" controls>
+  <video width="350" controls>
     <source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/The%20Pandemic.mp4" type="video/mp4">
   </video>
-  <video width="300" controls>
+  <video width="350" controls>
     <source src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Supply%20Chain%20Resilience.mp4" type="video/mp4">
   </video>
  </div>
 
  <h1 id="templates">Customer success stories</h1>
-    <h3 id="centrep">Discover how leading brands are getting results with Lumen5.</h3>
+    <h3 id="centrep5">Discover how leading brands are getting results with Lumen5.</h3>
 
-    <div>
-      <img src=" https://storage.googleapis.com/lumen5-site-images/carousel-siemens-bg.png"/>
-      <img src=" https://storage.googleapis.com/lumen5-site-images/carousel-dnv-bg.png"/>
-      <img src="	https://storage.googleapis.com/lumen5-site-images/carousel-mhi-bg.png"/>
-      <img src="	https://storage.googleapis.com/lumen5-site-images/carousel-ncstate-bg.png"/>
-      <img src="https://storage.googleapis.com/lumen5-site-images/carousel-cms-bg.png"/>
-      <img src="	https://storage.googleapis.com/lumen5-site-images/carousel-mondadori-bg.png"/>
-      <img src="https://storage.googleapis.com/lumen5-site-images/carousel-berkshire-bg.png"/>
-    </div>
-<div id="typeofnav">
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://storage.googleapis.com/lumen5-site-images/carousel-siemens-bg.png" style="width:70%">
+  <img class="mySlides" src="https://storage.googleapis.com/lumen5-site-images/carousel-dnv-bg.png" style="width:70%">
+  <img class="mySlides" src="https://storage.googleapis.com/lumen5-site-images/carousel-mhi-bg.png" style="width:70%">
+  <img class="mySlides" src="https://storage.googleapis.com/lumen5-site-images/carousel-ncstate-bg.png" style="width:70%">
+  <img class="mySlides" src="https://storage.googleapis.com/lumen5-site-images/carousel-cms-bg.png" style="width:70%">
+  <img class="mySlides" src="https://storage.googleapis.com/lumen5-site-images/carousel-mondadori-bg.png" style="width:70%">
+  <img class="mySlides" src="https://storage.googleapis.com/lumen5-site-images/carousel-berkshire-bg.png" style="width:70%">
+  
+
+  <button id="w3btn" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button id="w3btn1" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------- -->
+<div class="typeofnav">
 <img src="https://storage.googleapis.com/lumen5-site-images/carousel-siemens.png"/>
 <img src="https://storage.googleapis.com/lumen5-site-images/carousel-dnv.png"/>
 <img src="https://storage.googleapis.com/lumen5-site-images/carousel-mitsubishi.png"/>
@@ -346,36 +242,57 @@ margin-top: 80px;
 <img src="https://storage.googleapis.com/lumen5-site-images/carousel-berkshire.png"/>
 </div>
 
-<h1 templates>Tips and tricks for amplifying
+<h1 class="last">Tips and tricks for amplifying
   your brand with video</h1>
+<!-- ----------------------------------------------------------------------------------------------------------- -->
 
-  <div id="container">
-    <div>
-      <img src="https://lumen5.com/learn/wp-content/uploads/2019/05/Video-Marketing-How-to-Get-Started.jpg"/>
-      <p>Blog</p>
-      <p>Video Marketing: How to Get Started [Step by Step]</p>
-      <p><a href="signup.html"></a>Read Story-></p>
-    </div>
-
-    <div>
-      <img src="https://lumen5.com/learn/wp-content/uploads/2019/08/Host-an-Instagram-Takeover-in-7-Simple-Steps.jpg"/>
-      <p>Blog</p>
-      <p>How to Increase Your Facebook Video Views [Complete Guide]</p>
-      <p><a href="signup.html"></a>Read Story-></p>
-    </div>
-
-    <div>
-      <img src="https://lumen5.com/learn/wp-content/uploads/2018/10/photo-1518406432532-9cbef5697723.jpeg"/>
-      <p>Blog</p>
-      <p>The Importance of Video in Your Content Strategy</p>
-      <p><a href="signup.html"></a>Read Story-></p>
-    </div>
-
+  <div id="dabba">
+  <div>
+    <img src="https://lumen5.com/learn/wp-content/uploads/2019/05/Video-Marketing-How-to-Get-Started.jpg">
+    <p>BLOG</p>
+    <h2>Video Marketing: How to Get Started [Step by Step]</h2>
+    <a class="dabba1" href="signup.html">Read story</a>
   </div>
-
+  <div>
+    
+    <img src="https://lumen5.com/learn/wp-content/uploads/2019/08/Host-an-Instagram-Takeover-in-7-Simple-Steps.jpg"/>
+    <p>BLOG</p>
+    <h2>How to Increase Your Facebook Video Views [Complete Guide]</h2>
+    <a class="dabba2" href="signup.html">Read story</a>
+  </div>
+  <div>
+    <img src="https://lumen5.com/learn/wp-content/uploads/2018/10/photo-1518406432532-9cbef5697723.jpeg"/>
+    <p>BLOG</p>
+    <h2>The Importance of Video in Your Content Strategy</h2>
+    <a class="dabba3" href="signup.html">Read story</a>
+  </div>
+  </div>
 
 </body>
 </html>
 <script>
+ let button=document.querySelector(".centrebutton")
+ button.onclick=()=>{
+  window.location.href="signup.html";
+ }
 
+//  -------------------------------------------------------------------------------------------------------------
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
 </script>

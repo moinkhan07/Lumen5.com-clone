@@ -10,26 +10,34 @@
   <body>
     <div id="pay">
       <div id="paise">
-          <img src="logo.png" alt="">
-        <div><h2>Subscribe to Starter- v2(Annual)</h2>
-        <h1 id="laao"></h1></div>
+        <img class="logoo" src="logo.png" alt="" />
+        <div>
+          <h2>Subscribe to Starter- v2(Monthly)</h2>
+          <h1 id="laao"></h1>
+        </div>
         <div class="allM">
-          <div><h4>Subscribe to Starter- v2(Annual)</h4>
+          <div>
+            <h4>Subscribe to Starter- v2(Monthly)</h4>
             <h5 class="lto"></h5>
           </div>
-          <div><h4>Subtotal</h4>
-            <h5 class="lto"></h5></div>
-          <div><p>Tax!</p><p>US$0.00</p></div>
-          <div><h4>Total due today</h4>
-            <h5 class="lto"></h5></div>
+          <div>
+            <h4>Subtotal</h4>
+            <h5 class="lto"></h5>
+          </div>
+          <div>
+            <p>Tax!</p>
+            <p>US$0.00</p>
+          </div>
+          <div>
+            <h4>Total due today</h4>
+            <h5 class="lto"></h5>
+          </div>
         </div>
       </div>
       <div id="debit">
         <div>
-            <div>  <h2 id="h2">Pay with Card</h2></div>
-            <div><img src="cards.jpg" alt="" /></div>
-        
-          
+          <div><h2 id="h2">Pay with Card</h2></div>
+          <div><img src="cards.jpg" alt="" /></div>
         </div>
 
         <div class="email">
@@ -37,11 +45,12 @@
         </div>
         <form action="">
           <label for="">Card Information</label>
-          <input type="text" name="cardno" maxlength="19" />
+          <input type="text" name="cardno" maxlength="16" id="cardno" />
           <div class="float">
             <div><label for="">Valid Till </label><input type="month" /></div>
             <div>
-              <label for="">CVV </label><input type="text" maxlength="3" />
+              <label for="">CVV </label
+              ><input id="cvv" type="text" maxlength="3" />
             </div>
           </div>
           <label for="">Name on Card</label>
@@ -54,12 +63,16 @@
             <option value="">RUSSIA</option>
             <option value="">CHINA</option>
           </select>
-       
-       <div > <input type="checkbox" name="checkbox" id="checkbox" />
-          <p>Save my info for secure 1-click checkout</p></div>
-         
-        <input id="submit" type="submit" value="Subscribe" /> </form>
+
+          <div>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <p>Save my info for secure 1-click checkout</p>
+          </div>
+
+          <input id="submit" type="submit" value="Subscribe" />
+        </form>
       </div>
     </div>
   </body>
 </html>
+<script src="./payjs/pay.js"></script>

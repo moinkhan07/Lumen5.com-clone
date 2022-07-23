@@ -7,7 +7,10 @@
     justify-content: space-around;
     background-color: #fafafb;
     font-family: "Poppins",sans-serif;
+    position: fixed;
+    margin-top: -15px;  
 }
+
 #navbar img{height: 90%;
             margin-left: 30%;}
 #nav1{
@@ -48,19 +51,20 @@
 
 #learn_div{
     border: solid black 1px;
-    margin-top: -10px;
+    margin-top: 70px;
     border-radius: 5px;
     width: 150px;
     margin-left:78%;
     background-color:white;
     font-family: "Poppins",sans-serif;
     font-size: 12px;
-    position: absolute;}
+    position: absolute;
+    position: fixed;}
 
 a{text-decoration: none;}
 
 #create_list{ border: solid black 1px;
-    margin-top: -25px;
+    margin-top: 60px;
     border-radius: 10px;
     width: 500px;
     margin-left:50%;
@@ -68,6 +72,7 @@ a{text-decoration: none;}
     background-color:white;
     line-height: 40px;
     position: absolute;
+    position: fixed;
     }
 #create_list td{background-color: white;
    padding: 10px 15px 10px 15px;
@@ -91,7 +96,10 @@ a{text-decoration: none;}
 #navbar .con2:hover{color:black}
 #navbar button:hover{color:black}
 
-.bg{font-size: 35px;}
+.bg{font-size: 35px;
+     position: sticky;}
+
+     
 
 /* ----------------------footer_start----------------- */
 #foot{width: 100%;
@@ -99,7 +107,7 @@ a{text-decoration: none;}
     border: solid black 1px;
     display: flex;
     background-color:rgb(28, 27, 27)}
-.foot2{width: 50%;
+.foot2{width: 100%;
     height: 500px;
    }
 .foot2 td{font-size: 14.5px;
@@ -124,7 +132,8 @@ a{text-decoration: none;}
    
      margin-top: 10%;}
 .footlog img{width: 120px;
-       margin-left: 20%;}
+       margin-left: 20%;
+       cursor: pointer;}
 .footlog p{ text-align: left;
       font-size: 14px;
       margin-top: 20px;
@@ -147,8 +156,29 @@ a{text-decoration: none;}
 #coppiright>:nth-child(2){padding:0px 40px 0px 0px ;
                           margin-top:30px;}
 
+
                           
-        
+ @media (max-width: 1000px){
+  .con{margin-top:35px}
+  #navbar{display: flex;
+         justify-content: space-between;}   
+         #navbar img{margin-left: 0px;}
+
+         .foot2 td{font-size: 14.5px;
+            padding: 0px 30px;
+            line-height: 20px;
+            }   
+
+            .foot2 th{
+                line-height: 55px;
+                letter-spacing: 0px;
+                padding: 0px 0px 0px 0px
+            }
+
+            .footlog p{ line-height: 18px; }    
+  
+  }
+  
 
 
       

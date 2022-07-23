@@ -83,6 +83,7 @@ h1 {
     color: rgb(95, 95, 255);
     background-color: white;
   }
+  
   .box p{
     margin-top: 10px;
   }
@@ -101,6 +102,7 @@ h1 {
   color: white;
   cursor: pointer;
 }
+
 .box .price1{
     margin-top: 40px;
     font-size: 30px;
@@ -154,6 +156,13 @@ p{
     color: grey;
     font-size: 13px;
 }
+.box-container .box .btn_curr{
+  background-color: #6666ff;
+  color: #fff;
+  opacity: 0.5;
+  cursor :no-drop;
+}
+
 /* Completed plans div */
 #middle {
   text-align: center;
@@ -300,7 +309,12 @@ p{
   background-color: rgb(90, 90, 248);
   color: white;
 }
-
+.smallPlan_box .small_box .btn_curr2{
+  background-color: #6666ff;
+  color: #fff;
+  opacity: 0.5;
+  cursor :no-drop;
+}
 .dark_line{
   width: 80%;
   margin: auto;
@@ -340,3 +354,75 @@ table>tbody>tr{
   font-weight: lighter;
   text-align: center;
 }
+
+/* -----------------------------------------------FAQ part-------------------------------------------- */
+
+.faq_heading{
+  margin-top: 110px;
+  margin-bottom: 110px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: lighter;
+}
+
+.faq_div{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 100px 0px;
+  margin-bottom: 110px;
+  justify-content: space-between;
+}
+.faq_div>div{
+  line-height: 60px;
+}
+.faq_div>div>h3{
+  font-size: 23px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+}
+.faq_div>div>p{
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 27px;
+}
+/* ---------------------------------------------------Banner---------------------------------------- */
+.banner_{
+  width: 80%;
+  /* height: 550px; */
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #6600ff 0%, #6666ff 100%);
+  margin: auto;
+  margin-bottom: 100px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.banner_>h1{
+  width: 68%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.banner_ .inner_banner{
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+.inner_banner>p{
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.inner_banner>button{
+  width: 170px;
+  height: 75px;
+  border-radius: 35px;
+  font-size: 20px;
+  border: 1px solid rgb(77, 77, 255);
+  color: rgb(95, 95, 255);
+  background-color: white;
+}
+
+/* -------------------------------------------Banner End ---------------------------------------------------- */

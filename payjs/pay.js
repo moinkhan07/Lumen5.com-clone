@@ -7,6 +7,7 @@ function okkkk(event) {
 
   if (card_no == "1234567812345678" && cvv == "123") {
     alert("Success");
+    window.location.href = "./success.html";
   } else {
     alert("Check you card number again bikhaaari");
   }
@@ -15,9 +16,13 @@ function okkkk(event) {
 let data = JSON.parse(localStorage.getItem("price"));
 let h1 = document.getElementById("laao");
 h1.innerText = data.value;
-let h5 = document.getElementById("lto");
+let h5 = document.querySelector(".lto");
 h5.innerText = data.value;
+let h51 = document.querySelector(".lto2");
+h51.innerText = data.value;
+let h52 = document.querySelector(".lto3");
+h52.innerText = data.value;
 
 function dabao_img() {
-  window.location.href = "./index.html"
+  window.location.href = "./index.html";
 }

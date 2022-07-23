@@ -17,7 +17,7 @@ for (let i = 0; i < sign.length; i++) {
 }
 if (flag == true) {
   alert("Login successful!");
-//   window.location.href = "index.html";
+  window.location.href = "./Pricing Page - Moin Khan/pricing_.html";
 } else {
   alert("Wrong credentials");
 }

@@ -14,6 +14,10 @@ function okkkk(event) {
 
 let data = JSON.parse(localStorage.getItem("price"));
 let h1 = document.getElementById("laao");
-h1.innerText = data;
+h1.innerText = data.value;
 let h5 = document.getElementById("lto");
-h5.innerText = data;
+h5.innerText = data.value;
+
+function dabao_img() {
+  window.location.href = "./index.html"
+}

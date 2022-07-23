@@ -7,7 +7,7 @@
    width:80%;
    height:500px;
    /* border:1px solid red; */
-   margin: 50px auto;
+   margin: 200px auto;
    display:flex;
    gap:30px;
 }
@@ -300,6 +300,7 @@ img+p+h2+p{
     height:500px;
     border:1px solid blue;
     margin: auto;
+    margin-bottom: 80px;
     text-align: center;
     background-color: #5846f6 ;
     border-radius: 25px;

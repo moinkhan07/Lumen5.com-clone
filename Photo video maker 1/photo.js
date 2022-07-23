@@ -1,3 +1,3 @@
 let redirect=()=>{
-    window.location.href="";
+    window.location.href="../signup.html";
 }

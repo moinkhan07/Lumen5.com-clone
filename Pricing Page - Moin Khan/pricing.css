@@ -415,7 +415,7 @@ table>tbody>tr{
   color: #fff;
   margin-bottom: 35px;
 }
-.inner_banner>button{
+#shakal{
   width: 170px;
   height: 75px;
   border-radius: 35px;
@@ -423,6 +423,7 @@ table>tbody>tr{
   border: 1px solid rgb(77, 77, 255);
   color: rgb(95, 95, 255);
   background-color: white;
+  cursor: pointer;
 }
 
 /* -------------------------------------------Banner End ---------------------------------------------------- */

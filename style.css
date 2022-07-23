@@ -265,6 +265,13 @@
   color: #fafafb;
   text-decoration: none;
   }
+  .hero_hai{
+    border: none;
+    color: blue;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+  }
   #bot{
     background-color: #fafafb;
     border: none;
@@ -336,7 +343,7 @@ padding-left:80px;
 .w3-content .w3-button{
 width: 80px;
 height:80px;
-top:750%;
+top:690%;
 position:absolute;
 }
 #w3btn1{

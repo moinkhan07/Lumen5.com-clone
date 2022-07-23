@@ -38,3 +38,6 @@ let price = {
 click.onclick = () =>{
     localStorage.setItem("price" , JSON.stringify(price));
 }
+
+
+

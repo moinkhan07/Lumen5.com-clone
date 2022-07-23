@@ -20,10 +20,21 @@ month.onclick = () =>{
 };
 
 
-
-let plan_compare = document.getElementById("reach");
 let scroll = document.getElementById("compare_plan");
 
 scroll.onclick = ()=>{
     window.scrollTo(0,2300);
+}
+
+
+// Local storage - storing price for cart page
+
+let click = document.getElementById("click");
+
+let price = {
+    value : document.getElementById("value").innerText
+}
+
+click.onclick = () =>{
+    localStorage.setItem("price" , JSON.stringify(price));
 }

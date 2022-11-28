@@ -23,4 +23,4 @@
 <h2>Checkout Our Clone Website</h2>
 <a href = "https://lumen5project2.netlify.app/" >Go Live</a>
 
-<img src = "Lumen5.com-clone/Imagesforgithubreadme/lumen5.png">
+<img src = "./Imagesforgithubreadme/lumen5.png">

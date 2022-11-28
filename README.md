@@ -31,3 +31,6 @@
   
 <h2>Login Page<h2>
 <img src = "./Imagesforgithubreadme/Login.png">
+  
+  <h2>Payment Page</h2>
+ <img src = "./Imagesforgithubreadme/payment.png" > 

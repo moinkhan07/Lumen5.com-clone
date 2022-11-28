@@ -1,10 +1,3 @@
-#lumen5_clone
+<h1>Lumen5.com-Clone</h1>
 
-Clone of video creation platform done in unit3(js201) project along with 4 team members .
-Tools used :
-HTML
-CSS
-Javascript
-
-Deployed link:
 https://lumen5project2.netlify.app/

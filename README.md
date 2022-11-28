@@ -12,7 +12,7 @@
 <h1>Team Members</h1>
 <p>1: Moin Khan</p>
 <p>2: Shivam Moudgil</p>
-<p>3: Arun Prazad</p>
+<p>3: Arun Prasad</p>
 <p>4: Ujjwal Joshi</p>
 <p>5: Shubham Kumar</p>
 
